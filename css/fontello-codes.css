@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+ 
+.icon-heart:before { content: '\2665'; } /* '♥' */
+.icon-settings:before { content: '\2699'; } /* '⚙' */
+.icon-sun:before { content: '\e000'; } /* '' */
+.icon-camera:before { content: '\e038'; } /* '' */
+.icon-info:before { content: '\e087'; } /* '' */
+.icon-music:before { content: '\e0b3'; } /* '' */
+.icon-star:before { content: '\e0f1'; } /* '' */
+.icon-comment:before { content: '\e718'; } /* '' */
+.icon-moon:before { content: '\e7a0'; } /* '' */
+.icon-search:before { content: '\e80f'; } /* '' */
+.icon-spin:before { content: '\e832'; } /* '' */
+.icon-crown:before { content: '\e844'; } /* '' */
+.icon-crown-plus:before { content: '\e845'; } /* '' */
+.icon-crown-minus:before { content: '\e846'; } /* '' */
+.icon-twitter:before { content: '\f099'; } /* '' */
+.icon-menu:before { content: '\f0c9'; } /* '' */
+.icon-bell:before { content: '\f0f3'; } /* '' */
+.icon-star-half:before { content: '\f123'; } /* '' */
+.icon-youtube:before { content: '\f167'; } /* '' */
+.icon-tumblr:before { content: '\f173'; } /* '' */
+.icon-vk:before { content: '\f189'; } /* '' */
+.icon-bell-off:before { content: '\f1f6'; } /* '' */
+.icon-trash:before { content: '\f1f8'; } /* '' */
+.icon-whatsapp:before { content: '\f232'; } /* '' */
+.icon-envira:before { content: '\f299'; } /* '' */
+.icon-phone:before { content: '📞'; } /* '\1f4de' */
+.icon-search-1:before { content: '🔍'; } /* '\1f50d' */
+.icon-lock:before { content: '🔒'; } /* '\1f512' */
+.icon-mark:before { content: '🔖'; } /* '\1f516' */
+.icon-clock:before { content: '🕔'; } /* '\1f554' */
+.icon-block:before { content: '🚫'; } /* '\1f6ab' */

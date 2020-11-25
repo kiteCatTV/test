@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: 0.3s;
+}
+
+.first {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background: url(../def.jpeg);
+}
+.first.active {
+  background: url(../active.jpeg);
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  min-width: 114px;
+  min-height: 44px;
+}
+.main .toggle {
+  width: 48%;
+}
+.main .active i {
+  color: gold;
+  background: #D77AFF;
+  font-size: 20px;
+  border: none;
+}
+.main .active i.icon-sun {
+  background: #00c5ff;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 34vw;
+  height: 60vh;
+  padding: 1% 5%;
+  background: lightgray;
+  border: 2px solid #646464;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: linear-gradient(to bottom, #00c5ff, #00c9ee, #00cace, #00c8a3, #05c371);
+  color: white;
+  transition: 0.3s;
+}
+.text.active {
+  background: linear-gradient(to bottom, #4b0f5e, #67137f, #8515a2, #a415c6, #c512eb);
+  color: gold;
+  border-color: gold;
+}
